@@ -111,6 +111,7 @@ The glimpse of simple implemantation along.
 ![Benchmark Results](s.png)
 ![Benchmark Results](s1.png)
 
+Live implmentation: [Watch on LinkedIn] https://www.linkedin.com/posts/abhishek-chauhan-472343236_successfully-integrated-the-ai-model-with-activity-7273003469702152193-ZGSb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrIXtYB1wdqDXhmWRZHoLzbLheOvqYBul8
 
 Author
 Abhishek Chauhan** — MSc Computer Science, HAM (Hochschule für angewandtes Management), specialising in Industry 4.0, Robotics and Automation
