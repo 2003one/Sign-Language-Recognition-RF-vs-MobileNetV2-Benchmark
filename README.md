@@ -3,6 +3,39 @@ Sign Language Recognition — RF vs MobileNetV2 Benchmark
 A comparative study of classical machine learning vs deep transfer learning for real-time sign language recognition, extending the work published in Affordable Real-Time Hand Gesture Detection Using Random Forest (IJISRT, peer-reviewed).
 
 
+## Setup
+
+### 1 — Clone the repository
+
+```bash
+git clone https://github.com/your-username/sign-language-benchmark.git
+cd sign-language-benchmark
+```
+
+### 2 — Create a virtual environment
+
+```bash
+python3 -m venv env
+source env/bin/activate        # Linux / Mac
+env\Scripts\activate           # Windows
+```
+
+### 3 — Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4 — Verify installation
+
+```bash
+python3 -c "import tensorflow, sklearn, cv2, mediapipe; print('All dependencies installed successfully')"
+```
+
+> **Note:** The `data/` folder is not included in this repository due to size constraints. Run `step1_grayscale.py` after collecting your dataset to reproduce the preprocessing pipeline.
+
+
+
 Overview
 This project benchmarks two fundamentally different approaches to sign language recognition on the same dataset — a Random Forest classifier using raw pixel features (the baseline from the published paper) against MobileNetV2 with two-phase transfer learning. Rather than simply reporting accuracy on clean data, the study stress-tests both models under seven real-world degradation conditions to reveal where each approach genuinely wins.
 
@@ -80,4 +113,4 @@ The glimpse of simple implemantation along.
 
 
 Author
-Abhishek Chauhan — MSc Computer Science, HAM (Hochschule für angewandtes Management),
+Abhishek Chauhan** — MSc Computer Science, HAM (Hochschule für angewandtes Management), specialising in Industry 4.0, Robotics and Automation
