@@ -21,7 +21,8 @@ Random Forest is 2.3× faster (26ms vs 58ms per frame) and more robust to image 
 
 
 Benchmark Results
-Show Image
+
+![Benchmark Results](benchmark_results.png)
 
 The benchmark covers:
 
@@ -70,3 +71,9 @@ Related Work
 
 Original paper: Affordable Real-Time Hand Gesture Detection Using Random Forest — IJISRT, peer-reviewed, Google Scholar indexed
 ESP32 wireless pipeline: The original system used an ESP32 microcontroller as a WSN sensor node transmitting frames to a laptop server for classification, demonstrating edge-to-cloud inference architecture
+
+
+![Benchmark Results](s.png)
+![Benchmark Results](s1.png)
+
+
