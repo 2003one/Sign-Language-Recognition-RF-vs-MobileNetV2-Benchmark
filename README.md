@@ -73,7 +73,11 @@ Original paper: Affordable Real-Time Hand Gesture Detection Using Random Forest 
 ESP32 wireless pipeline: The original system used an ESP32 microcontroller as a WSN sensor node transmitting frames to a laptop server for classification, demonstrating edge-to-cloud inference architecture
 
 
+The glimpse of simple implemantation along.
+
 ![Benchmark Results](s.png)
 ![Benchmark Results](s1.png)
 
 
+Author
+Abhishek Chauhan — MSc Computer Science, HAM (Hochschule für angewandtes Management),
